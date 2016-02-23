@@ -8,7 +8,7 @@ let config = {
     "compilerOptions": {
         "module": "commonjs",
         "removeComments": true,
-		"target": "ES5",
+		"target": "es6",
         "sourceMap": true,
         "jsx": "react"
     },
