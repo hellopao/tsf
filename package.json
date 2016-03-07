@@ -1,6 +1,6 @@
 {
   "name": "tsf",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "generate tsconfig.json for visual studio code",
   "license": "MIT",
   "repository": {
@@ -22,7 +22,7 @@
     "visual studio code"
   ],
   "homepage": "https://github.com/hellopao/tsf",
-  "_id": "tsf@0.0.3",
+  "_id": "tsf@0.0.4",
   "_from": "tsf@",
   "dependencies": {
   }
