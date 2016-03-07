@@ -9,8 +9,7 @@ let config = {
         "module": "commonjs",
         "removeComments": true,
 		"target": "es6",
-        "sourceMap": true,
-        "jsx": "react"
+        "sourceMap": true
     },
     "exclude": [
         "node_modules"
