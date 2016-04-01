@@ -4,18 +4,19 @@
 var fs = require('fs'),
 	path = require('path');
 
-let config = {
+var config = `{
     "compilerOptions": {
         "module": "commonjs",
         "removeComments": true,
-		"target": "es6",
-        "sourceMap": true
+        "target": "es2015",
+        "sourceMap": true,
+        "jsx": "react"
     },
     "exclude": [
         "node_modules"
     ]
-};
+}
+`
+var file = path.join(process.cwd(),'tsconfig.json');
 
-let file = path.join(process.cwd(),'tsconfig.json');
-
-fs.writeFile(file,JSON.stringify(config));
+fs.writeFile(file,config);

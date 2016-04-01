@@ -2,8 +2,9 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"removeComments": true,
-		"target": "ES5",
-		"sourceMap": true
+		"target": "es2015",
+		"sourceMap": true,
+		"jsx": "react"
 	},
 	"exclude": [
 		"node_modules"
