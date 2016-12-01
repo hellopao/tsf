@@ -5,6 +5,7 @@ var fs = require('fs'),
 	path = require('path');
 
 var config = `{
+    "compileOnSave": true,
     "compilerOptions": {
         "module": "commonjs",
         "removeComments": true,

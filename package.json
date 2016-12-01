@@ -1,6 +1,6 @@
 {
   "name": "tsf",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "generate tsconfig.json for visual studio code",
   "license": "MIT",
   "repository": {
