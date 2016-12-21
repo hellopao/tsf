@@ -7,11 +7,13 @@ var fs = require('fs'),
 var config = `{
     "compileOnSave": true,
     "compilerOptions": {
-        "module": "commonjs",
-        "removeComments": true,
         "target": "es2015",
+        "module": "es2015",
         "sourceMap": true,
-        "jsx": "react"
+        "watch": true,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true
     },
     "exclude": [
         "node_modules"
@@ -20,4 +22,4 @@ var config = `{
 `
 var file = path.join(process.cwd(),'tsconfig.json');
 
-fs.writeFile(file,config);
+fs.writeFileSync(file,config);
